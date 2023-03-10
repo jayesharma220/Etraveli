@@ -55,17 +55,4 @@ void HeapSort::display() {
     cout << endl;
 }
 
-int main() {
-    int arr[] = { 12, 11, 13, 5, 6, 7 };
-    int size = sizeof(arr)/sizeof(arr[0]);
 
-    HeapSort h(arr, size);
-    cout << "Original array: ";
-    h.display();
-
-    h.sort();
-    cout << "Sorted array: ";
-    h.display();
-
-    return 0;
-}
